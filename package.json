@@ -1,0 +1,25 @@
+{
+  "name": "bpanel-ux",
+  "version": "0.0.1",
+  "description": "reusable React component library used in the bpanel GUI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.purse.io:bcoin/bpanel-ux.git"
+  },
+  "keywords": [
+    "react",
+    "ux",
+    "GUI"
+  ],
+  "author": "bcoin",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
