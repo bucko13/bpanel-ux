@@ -20,10 +20,7 @@ const WebpackConfig = {
         loader: 'babel-loader',
         test: /.jsx?$/,
         exclude: /node_modules/,
-        include: APP_DIR,
-        options: {
-          presets: ['env', 'react']
-        }
+        include: APP_DIR
       },
       {
         test: /\.scss$/,
